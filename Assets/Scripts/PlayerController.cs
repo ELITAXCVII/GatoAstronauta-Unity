@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
     public float jumpForce = 12f;
-    // Tamaño del patito (el original era 1). Constante para que la escena no guarde otro valor.
+    // Tamaño del gato (el original era 1). Constante para que la escena no guarde otro valor.
     const float SIZE = 1.5f;
     public Transform groundCheck;
     public LayerMask groundLayer;
